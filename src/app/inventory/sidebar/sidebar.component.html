@@ -1,0 +1,15 @@
+<div class="sidebar-nav">
+  <h5 class="sidebar-nav-title">Component Types</h5>
+  <hr>
+
+  <p
+    *ngFor="let part of parts"
+    routerLinkActive="sidebar-nav-active">
+    <a
+      [routerLink]="part"
+      >{{ part }}</a>
+    <!-- <a
+      [routerLink]="part.toLowerCase().replace(' ', '-')"
+      >{{ part }}</a> -->
+  </p>
+</div>

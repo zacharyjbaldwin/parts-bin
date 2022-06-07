@@ -1,0 +1,21 @@
+.sidebar-nav p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.sidebar-nav-active {
+  font-weight: bold;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+}
+
+.sidebar-nav .sidebar-nav-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.sidebar-nav hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}

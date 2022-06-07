@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+/* .grid-x {
+  border: grey dashed 1px;
+}
+
+.cell {
+  border: grey dashed 2px;
+} */
+
+*[routerLink] {
+  cursor: pointer;
+}
